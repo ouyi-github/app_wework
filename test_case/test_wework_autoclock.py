@@ -5,11 +5,6 @@ import time
 import pytest
 from appium import webdriver
 from appium.webdriver.common.mobileby import MobileBy
-from selenium.webdriver.support import expected_conditions
-from selenium.webdriver.support.wait import WebDriverWait
-
-
-
 class TestAutoClock:
     def setup(self):
         caps = {}
